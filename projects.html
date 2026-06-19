@@ -1,0 +1,953 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    
+    <!-- ============================================================ -->
+    <!-- ===== SEO META TAGS ===== -->
+    <!-- ============================================================ -->
+    <title>All Projects | Syed Hamail | Full-Stack Developer Portfolio</title>
+    <meta name="description" content="Explore all projects by Syed Hamail – Full-Stack Developer. Web applications, AI tools, e-commerce platforms, and more." />
+    <meta name="keywords" content="Syed Hamail, projects, portfolio, Full-Stack, React, Python, Django, AI, web development, STARFILM, Avant Pharmaceuticals, Luxe Seaters" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://syedhamailportfolio.vercel.app/projects.html" />
+
+    <!-- ============================================================ -->
+    <!-- ===== OPEN GRAPH ===== -->
+    <!-- ============================================================ -->
+    <meta property="og:title" content="All Projects | Syed Hamail | Full-Stack Developer" />
+    <meta property="og:description" content="Complete portfolio of Syed Hamail – Full-Stack Developer. 18 projects including AI tools, e-commerce, and web applications." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://syedhamailportfolio.vercel.app/projects.html" />
+    <meta property="og:image" content="https://syedhamailportfolio.vercel.app/og-image.jpg" />
+
+    <!-- FAVICON -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon-32x32.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="favicon-16x16.png" sizes="16x16" type="image/png">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+    <!-- ============================================================ -->
+    <!-- ===== TWITTER CARD ===== -->
+    <!-- ============================================================ -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="All Projects | Syed Hamail" />
+    <meta name="twitter:description" content="Explore all projects by Syed Hamail – Full-Stack Developer." />
+    <meta name="twitter:image" content="https://syedhamailportfolio.vercel.app/og-image.jpg" />
+
+    <!-- ============================================================ -->
+    <!-- ===== STRUCTURED DATA: Projects List ===== -->
+    <!-- ============================================================ -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "name": "Syed Hamail's Projects",
+      "description": "A collection of 18 web development projects by Syed Hamail.",
+      "numberOfItems": 18,
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "STARFILM", "url": "https://starfilm.vercel.app/" },
+        { "@type": "ListItem", "position": 2, "name": "Avant Pharmaceuticals", "url": "https://www.avantpharmaceutical.com.pk/" },
+        { "@type": "ListItem", "position": 3, "name": "Luxe Seaters", "url": "https://luxeseaters-e-commerce-website.vercel.app/" },
+        { "@type": "ListItem", "position": 4, "name": "Humanoid Robotics", "url": "https://humanoid-robotics-book-website.vercel.app/" },
+        { "@type": "ListItem", "position": 5, "name": "AI Study Helper", "url": "https://aistudyhelper.vercel.app/" },
+        { "@type": "ListItem", "position": 6, "name": "Unit Converter", "url": "https://shmuq-unitconverter.vercel.app/" },
+        { "@type": "ListItem", "position": 7, "name": "Resina Jewellery", "url": "https://resina-jewellery-website.vercel.app/" },
+        { "@type": "ListItem", "position": 8, "name": "SHMUQ University", "url": "https://shmuq-university.vercel.app/" },
+        { "@type": "ListItem", "position": 9, "name": "E-Commerce Store", "url": "https://e-commerce-website-iota-black.vercel.app/" },
+        { "@type": "ListItem", "position": 10, "name": "Countdown Timer", "url": "https://countdown-timer-nextjs-beta.vercel.app/" },
+        { "@type": "ListItem", "position": 11, "name": "Dynamic Blog", "url": "https://dynamic-blog-peach.vercel.app/" },
+        { "@type": "ListItem", "position": 12, "name": "Password Strength Meter", "url": "https://password-strength-meter-by-shmuq.streamlit.app/" },
+        { "@type": "ListItem", "position": 13, "name": "All World Clock Time", "url": "https://all-world-clock-time-by-shmuq.streamlit.app/" },
+        { "@type": "ListItem", "position": 14, "name": "Unit Convertor", "url": "https://unit-convertor-by-shmuq.streamlit.app/" },
+        { "@type": "ListItem", "position": 15, "name": "Guess The Number Game", "url": "https://guess-the-number-game-by-shmuq.streamlit.app/" },
+        { "@type": "ListItem", "position": 16, "name": "Currency Converter", "url": "https://currency-converter-by-shmuq.streamlit.app/" },
+        { "@type": "ListItem", "position": 17, "name": "Text Analyzer", "url": "https://text-analyzer-by-shmuq.streamlit.app/" },
+        { "@type": "ListItem", "position": 18, "name": "Dummy ATM App", "url": "https://dummy-atm-app-by-shmuq.streamlit.app/" }
+      ]
+    }
+    </script>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"/>
+    <!-- Font Awesome 6 (Free) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+
+    <style>
+        /* ============================================================ */
+        /* ===== RESET & BASE ===== */
+        /* ============================================================ */
+        *,
+        *::before,
+        *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --bg-primary: #0b0d15;
+            --bg-secondary: #12152a;
+            --bg-card: #1a1e3a;
+            --text-primary: #f0f0ff;
+            --text-secondary: #a8b0d0;
+            --accent-1: #6c5ce7;
+            --accent-2: #00d4ff;
+            --accent-3: #a855f7;
+            --gradient-1: linear-gradient(135deg, #6c5ce7, #00d4ff);
+            --gradient-2: linear-gradient(135deg, #a855f7, #6c5ce7);
+            --gradient-3: linear-gradient(135deg, #00d4ff, #a855f7);
+            --shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
+            --radius: 20px;
+            --transition: 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+            --font: 'Inter', sans-serif;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            scroll-padding-top: 80px;
+        }
+
+        body {
+            font-family: var(--font);
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.7;
+            overflow-x: hidden;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+        ul {
+            list-style: none;
+        }
+        img {
+            max-width: 100%;
+            display: block;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        section {
+            padding: 100px 0;
+            position: relative;
+        }
+
+        .section-label {
+            font-size: 14px;
+            font-weight: 600;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            color: var(--accent-2);
+            margin-bottom: 8px;
+            opacity: 0.8;
+        }
+
+        .section-title {
+            font-size: 42px;
+            font-weight: 800;
+            line-height: 1.2;
+            margin-bottom: 16px;
+        }
+        .section-title .highlight {
+            background: var(--gradient-1);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        /* ===== GLOW ORB ===== */
+        .orb {
+            position: fixed;
+            border-radius: 50%;
+            filter: blur(120px);
+            pointer-events: none;
+            z-index: 0;
+            opacity: 0.25;
+            animation: orbFloat 12s ease-in-out infinite alternate;
+        }
+        .orb-1 {
+            width: 500px;
+            height: 500px;
+            top: -200px;
+            right: -100px;
+            background: var(--accent-1);
+            animation-delay: 0s;
+        }
+        .orb-2 {
+            width: 400px;
+            height: 400px;
+            bottom: -100px;
+            left: -100px;
+            background: var(--accent-2);
+            animation-delay: 4s;
+        }
+        .orb-3 {
+            width: 300px;
+            height: 300px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: var(--accent-3);
+            animation-delay: 8s;
+        }
+
+        @keyframes orbFloat {
+            0% {
+                transform: translate(0, 0) scale(1);
+            }
+            33% {
+                transform: translate(40px, -30px) scale(1.1);
+            }
+            66% {
+                transform: translate(-20px, 40px) scale(0.9);
+            }
+            100% {
+                transform: translate(20px, -20px) scale(1.05);
+            }
+        }
+
+        /* ===== PARTICLE CANVAS ===== */
+        #particles-canvas {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 0;
+            pointer-events: none;
+            opacity: 0.5;
+        }
+
+        /* ===== HEADER / NAV ===== */
+        .header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1000;
+            padding: 16px 0;
+            transition: var(--transition);
+            background: rgba(11, 13, 21, 0.7);
+            backdrop-filter: blur(16px) saturate(180%);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+        }
+        .header.scrolled {
+            background: rgba(11, 13, 21, 0.92);
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+        }
+        .header .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: 800;
+            letter-spacing: -0.5px;
+            background: var(--gradient-1);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .logo i {
+            font-size: 28px;
+            -webkit-text-fill-color: initial;
+            color: var(--accent-2);
+        }
+
+        .nav-links {
+            display: flex;
+            align-items: center;
+            gap: 32px;
+        }
+        .nav-links a {
+            font-size: 14px;
+            font-weight: 500;
+            color: var(--text-secondary);
+            transition: var(--transition);
+            position: relative;
+            letter-spacing: 0.3px;
+        }
+        .nav-links a::after {
+            content: '';
+            position: absolute;
+            bottom: -4px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: var(--gradient-1);
+            transition: var(--transition);
+        }
+        .nav-links a:hover,
+        .nav-links a.active {
+            color: #fff;
+        }
+        .nav-links a:hover::after,
+        .nav-links a.active::after {
+            width: 100%;
+        }
+
+        .nav-cta {
+            background: var(--gradient-1);
+            padding: 10px 24px;
+            border-radius: 50px;
+            font-weight: 600;
+            font-size: 14px;
+            color: #fff !important;
+            transition: var(--transition);
+            box-shadow: 0 4px 20px rgba(108, 92, 231, 0.3);
+        }
+        .nav-cta::after {
+            display: none !important;
+        }
+        .nav-cta:hover {
+            transform: translateY(-2px) scale(1.04);
+            box-shadow: 0 8px 30px rgba(108, 92, 231, 0.5);
+        }
+
+        .hamburger {
+            display: none;
+            flex-direction: column;
+            gap: 6px;
+            cursor: pointer;
+            padding: 4px;
+            z-index: 1001;
+        }
+        .hamburger span {
+            display: block;
+            width: 28px;
+            height: 2.5px;
+            background: #fff;
+            border-radius: 4px;
+            transition: var(--transition);
+            transform-origin: center;
+        }
+        .hamburger.active span:nth-child(1) {
+            transform: rotate(45deg) translate(6px, 6px);
+        }
+        .hamburger.active span:nth-child(2) {
+            opacity: 0;
+        }
+        .hamburger.active span:nth-child(3) {
+            transform: rotate(-45deg) translate(6px, -6px);
+        }
+
+        /* ===== PROJECTS PAGE ===== */
+        .projects-page {
+            padding-top: 100px;
+            min-height: 100vh;
+            position: relative;
+            z-index: 1;
+        }
+
+        .projects-grid-all {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 24px;
+            margin-top: 40px;
+        }
+
+        .project-card {
+            background: var(--bg-card);
+            border-radius: var(--radius);
+            overflow: hidden;
+            border: 1px solid rgba(255, 255, 255, 0.04);
+            transition: var(--transition);
+            position: relative;
+            cursor: default;
+        }
+        .project-card:hover {
+            transform: translateY(-8px);
+            border-color: rgba(108, 92, 231, 0.25);
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+        }
+        .project-card .project-thumb {
+            height: 170px;
+            background: var(--gradient-1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 40px;
+            color: #fff;
+            position: relative;
+            overflow: hidden;
+        }
+        .project-card .project-thumb .overlay {
+            position: absolute;
+            inset: 0;
+            background: rgba(11, 13, 21, 0.6);
+            backdrop-filter: blur(4px);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            transition: var(--transition);
+        }
+        .project-card:hover .project-thumb .overlay {
+            opacity: 1;
+        }
+        .project-card .project-thumb .overlay a {
+            background: #fff;
+            color: #0b0d15;
+            padding: 8px 20px;
+            border-radius: 50px;
+            font-weight: 600;
+            font-size: 13px;
+            transition: var(--transition);
+        }
+        .project-card .project-thumb .overlay a:hover {
+            transform: scale(1.06);
+        }
+        .project-card .project-body {
+            padding: 20px 22px 24px;
+        }
+        .project-card .project-body .tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+            margin-bottom: 10px;
+        }
+        .project-card .project-body .tags span {
+            font-size: 10px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            padding: 3px 12px;
+            border-radius: 50px;
+            background: rgba(108, 92, 231, 0.15);
+            color: var(--accent-2);
+            border: 1px solid rgba(108, 92, 231, 0.1);
+        }
+        .project-card .project-body h3 {
+            font-size: 17px;
+            font-weight: 700;
+            margin-bottom: 6px;
+        }
+        .project-card .project-body p {
+            font-size: 13px;
+            color: var(--text-secondary);
+            line-height: 1.6;
+        }
+
+        .projects-actions {
+            text-align: center;
+            margin-top: 48px;
+        }
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            padding: 14px 36px;
+            border-radius: 50px;
+            font-weight: 600;
+            font-size: 16px;
+            transition: var(--transition);
+            border: none;
+            cursor: pointer;
+            font-family: var(--font);
+            background: var(--gradient-1);
+            color: #fff;
+            box-shadow: 0 4px 24px rgba(108, 92, 231, 0.35);
+        }
+        .btn:hover {
+            transform: translateY(-3px) scale(1.03);
+            box-shadow: 0 8px 40px rgba(108, 92, 231, 0.5);
+        }
+        .btn-outline {
+            background: transparent;
+            color: #fff;
+            border: 1.5px solid rgba(255, 255, 255, 0.15);
+            box-shadow: none;
+        }
+        .btn-outline:hover {
+            border-color: var(--accent-2);
+            background: rgba(0, 212, 255, 0.08);
+            transform: translateY(-3px);
+            box-shadow: none;
+        }
+        .btn-outline i {
+            color: var(--accent-2);
+        }
+
+        /* ===== FOOTER ===== */
+        .footer {
+            background: var(--bg-primary);
+            border-top: 1px solid rgba(255, 255, 255, 0.04);
+            padding: 40px 0;
+            position: relative;
+            z-index: 1;
+            margin-top: 60px;
+        }
+        .footer .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 16px;
+        }
+        .footer .copy {
+            font-size: 14px;
+            color: var(--text-secondary);
+        }
+        .footer .copy .highlight {
+            color: var(--accent-2);
+        }
+        .footer .footer-links {
+            display: flex;
+            gap: 24px;
+        }
+        .footer .footer-links a {
+            font-size: 14px;
+            color: var(--text-secondary);
+            transition: var(--transition);
+        }
+        .footer .footer-links a:hover {
+            color: #fff;
+        }
+
+        /* ===== SCROLL ANIMATIONS ===== */
+        .reveal {
+            opacity: 0;
+            transform: translateY(40px);
+            transition: opacity 0.8s ease, transform 0.8s ease;
+        }
+        .reveal.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        .reveal-scale {
+            opacity: 0;
+            transform: scale(0.92);
+            transition: opacity 0.8s ease, transform 0.8s ease;
+        }
+        .reveal-scale.visible {
+            opacity: 1;
+            transform: scale(1);
+        }
+
+        /* ===== RESPONSIVE ===== */
+        @media (max-width: 1024px) {
+            .projects-grid-all {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .section-title {
+                font-size: 32px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .nav-links {
+                position: fixed;
+                top: 0;
+                right: -100%;
+                width: 70%;
+                max-width: 320px;
+                height: 100vh;
+                background: var(--bg-primary);
+                flex-direction: column;
+                padding: 80px 32px 32px;
+                gap: 20px;
+                transition: var(--transition);
+                border-left: 1px solid rgba(255, 255, 255, 0.04);
+                align-items: flex-start;
+                backdrop-filter: blur(20px);
+            }
+            .nav-links.open {
+                right: 0;
+            }
+            .nav-links a {
+                font-size: 18px;
+            }
+            .nav-cta {
+                margin-top: 8px;
+            }
+            .hamburger {
+                display: flex;
+            }
+            .projects-grid-all {
+                grid-template-columns: 1fr;
+            }
+            .projects-page {
+                padding-top: 80px;
+            }
+            .section-title {
+                font-size: 28px;
+            }
+            .footer .container {
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .projects-grid-all {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- ===== GLOW ORBS ===== -->
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+
+    <!-- ===== PARTICLE CANVAS ===== -->
+    <canvas id="particles-canvas" aria-hidden="true"></canvas>
+
+    <!-- ============================================================ -->
+    <!-- ===== HEADER ===== -->
+    <!-- ============================================================ -->
+    <header class="header" id="header" role="banner">
+        <div class="container">
+            <a href="index.html" class="logo" aria-label="Syed Hamail Home">
+                <i class="fas fa-code" aria-hidden="true"></i> Syed Hamail
+            </a>
+            <nav class="nav-links" id="navLinks" role="navigation" aria-label="Main Navigation">
+                <a href="index.html#hero">Home</a>
+                <a href="index.html#about">About</a>
+                <a href="index.html#education">Education</a>
+                <a href="index.html#skills">Skills</a>
+                <a href="projects.html" class="active">Projects</a>
+                <a href="index.html#contact">Contact</a>
+                <a href="index.html#resume" class="nav-cta">Resume</a>
+            </nav>
+            <div class="hamburger" id="hamburger" aria-label="Toggle navigation" role="button" tabindex="0">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- ============================================================ -->
+    <!-- ===== MAIN CONTENT ===== -->
+    <!-- ============================================================ -->
+    <main>
+        <section class="projects-page" aria-labelledby="all-projects-title">
+            <div class="container">
+                <div class="section-label reveal">All Projects</div>
+                <h1 id="all-projects-title" class="section-title reveal">
+                    My <span class="highlight">Complete Portfolio</span>
+                </h1>
+                <p style="color:var(--text-secondary);margin-bottom:20px;font-size:16px;">
+                    Here are <strong>all 18</strong> projects I've worked on. Each one reflects my passion for building modern, scalable, and beautiful web applications.
+                </p>
+
+                <div class="projects-grid-all" id="allProjectsGrid">
+                    <!-- 18 project cards — generated dynamically with JS -->
+                </div>
+
+                <div class="projects-actions">
+                    <a href="index.html#projects" class="btn btn-outline" aria-label="Back to main portfolio">
+                        <i class="fas fa-arrow-left"></i> Back to Main Portfolio
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ============================================================ -->
+    <!-- ===== FOOTER ===== -->
+    <!-- ============================================================ -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="copy">
+                &copy; 2026 <span class="highlight">Syed Hamail</span> — Built with <i class="fas fa-heart" style="color:#6c5ce7;" aria-hidden="true"></i>
+            </div>
+            <div class="footer-links">
+                <a href="index.html#hero">Home</a>
+                <a href="index.html#about">About</a>
+                <a href="index.html#skills">Skills</a>
+                <a href="projects.html">Projects</a>
+                <a href="index.html#contact">Contact</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ============================================================ -->
+    <!-- ===== JAVASCRIPT ===== -->
+    <!-- ============================================================ -->
+    <script>
+        // ============================================================
+        // 1. NAVIGATION / HAMBURGER
+        // ============================================================
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.getElementById('navLinks');
+
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            navLinks.classList.toggle('open');
+        });
+
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                hamburger.classList.remove('active');
+                navLinks.classList.remove('open');
+            });
+        });
+
+        // ============================================================
+        // 2. SCROLL REVEAL
+        // ============================================================
+        const revealElements = document.querySelectorAll('.reveal, .reveal-scale');
+        const revealObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+        revealElements.forEach(el => revealObserver.observe(el));
+
+        // ============================================================
+        // 3. PARTICLES
+        // ============================================================
+        const canvas = document.getElementById('particles-canvas');
+        const ctx = canvas.getContext('2d');
+        let w, h;
+        let particles = [];
+        const PARTICLE_COUNT = 80;
+
+        function resizeCanvas() {
+            w = canvas.width = window.innerWidth;
+            h = canvas.height = window.innerHeight;
+        }
+        window.addEventListener('resize', resizeCanvas);
+        resizeCanvas();
+
+        class Particle {
+            constructor() { this.reset(); }
+            reset() {
+                this.x = Math.random() * w;
+                this.y = Math.random() * h;
+                this.size = Math.random() * 2 + 0.5;
+                this.speedX = (Math.random() - 0.5) * 0.4;
+                this.speedY = (Math.random() - 0.5) * 0.4;
+                this.opacity = Math.random() * 0.5 + 0.2;
+            }
+            update() {
+                this.x += this.speedX;
+                this.y += this.speedY;
+                if (this.x < 0 || this.x > w) { this.speedX *= -1;
+                    this.x = Math.min(Math.max(this.x, 0), w); }
+                if (this.y < 0 || this.y > h) { this.speedY *= -1;
+                    this.y = Math.min(Math.max(this.y, 0), h); }
+            }
+            draw() {
+                ctx.beginPath();
+                ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+                ctx.fillStyle = `rgba(108, 92, 231, ${this.opacity})`;
+                ctx.fill();
+            }
+        }
+
+        for (let i = 0; i < PARTICLE_COUNT; i++) particles.push(new Particle());
+
+        function drawLines() {
+            for (let i = 0; i < particles.length; i++) {
+                for (let j = i + 1; j < particles.length; j++) {
+                    const dx = particles[i].x - particles[j].x;
+                    const dy = particles[i].y - particles[j].y;
+                    const dist = Math.sqrt(dx * dx + dy * dy);
+                    if (dist < 150) {
+                        ctx.beginPath();
+                        ctx.moveTo(particles[i].x, particles[i].y);
+                        ctx.lineTo(particles[j].x, particles[j].y);
+                        ctx.strokeStyle = `rgba(108, 92, 231, ${0.08 * (1 - dist / 150)})`;
+                        ctx.lineWidth = 0.6;
+                        ctx.stroke();
+                    }
+                }
+            }
+        }
+
+        function animateParticles() {
+            ctx.clearRect(0, 0, w, h);
+            particles.forEach(p => { p.update();
+                p.draw(); });
+            drawLines();
+            requestAnimationFrame(animateParticles);
+        }
+        animateParticles();
+
+        // ============================================================
+        // 4. PROJECT DATA — 18 PROJECTS
+        // ============================================================
+        const projectLinks = [
+            'https://starfilm.vercel.app/',
+            'https://www.avantpharmaceutical.com.pk/',
+            'https://luxeseaters-e-commerce-website.vercel.app/',
+            'https://humanoid-robotics-book-website.vercel.app/',
+            'https://aistudyhelper.vercel.app/',
+            'https://shmuq-unitconverter.vercel.app/',
+            'https://resina-jewellery-website.vercel.app/',
+            'https://shmuq-university.vercel.app/',
+            'https://e-commerce-website-iota-black.vercel.app/',
+            'https://countdown-timer-nextjs-beta.vercel.app/',
+            'https://dynamic-blog-peach.vercel.app/',
+            'https://password-strength-meter-by-shmuq.streamlit.app/',
+            'https://all-world-clock-time-by-shmuq.streamlit.app/',
+            'https://unit-convertor-by-shmuq.streamlit.app/',
+            'https://guess-the-number-game-by-shmuq.streamlit.app/',
+            'https://currency-converter-by-shmuq.streamlit.app/',
+            'https://text-analyzer-by-shmuq.streamlit.app/',
+            'https://dummy-atm-app-by-shmuq.streamlit.app/'
+        ];
+
+        const projectTitles = [
+            'STARFILM',
+            'Avant Pharmaceuticals',
+            'Luxe Seaters',
+            'Humanoid Robotics',
+            'AI Study Helper',
+            'Unit Converter',
+            'Resina Jewellery',
+            'SHMUQ University',
+            'E-Commerce Store',
+            'Countdown Timer',
+            'Dynamic Blog',
+            'Password Strength Meter',
+            'All World Clock Time',
+            'Unit Convertor',
+            'Guess The Number Game',
+            'Currency Converter',
+            'Text Analyzer',
+            'Dummy ATM App'
+        ];
+
+        const projectTags = [
+            ['Python', 'Flask', 'AI', 'OpenAI'],
+            ['React', 'Node.js', 'MongoDB'],
+            ['Next.js', 'Tailwind CSS', 'MongoDB'],
+            ['React', 'Next.js', 'Tailwind CSS'],
+            ['React', 'Next.js', 'Tailwind CSS'],
+            ['HTML5', 'CSS3', 'JavaScript'],
+            ['HTML5', 'CSS3', 'JavaScript'],
+            ['HTML5', 'CSS3', 'JavaScript'],
+            ['React', 'Node.js', 'MongoDB'],
+            ['Next.js', 'React', 'Tailwind CSS'],
+            ['Next.js', 'React', 'Tailwind CSS'],
+            ['Python', 'Streamlit'],
+            ['Python', 'Streamlit'],
+            ['Python', 'Streamlit'],
+            ['Python', 'Streamlit'],
+            ['Python', 'Streamlit'],
+            ['Python', 'Streamlit'],
+            ['Python', 'Streamlit']
+        ];
+
+        const projectIcons = [
+            'fa-film',
+            'fa-hospital',
+            'fa-couch',
+            'fa-robot',
+            'fa-graduation-cap',
+            'fa-arrows-alt-h',
+            'fa-gem',
+            'fa-university',
+            'fa-shopping-bag',
+            'fa-clock',
+            'fa-blog',
+            'fa-shield-alt',
+            'fa-globe',
+            'fa-exchange-alt',
+            'fa-gamepad',
+            'fa-money-bill-wave',
+            'fa-file-alt',
+            'fa-credit-card'
+        ];
+
+        const projectDescriptions = [
+            'AI-powered short-form video generator that creates viral shorts, reels, and TikTok videos in seconds.',
+            'Fast-growing pharmaceutical company website with product listings, company profile, and quality healthcare information.',
+            'E-commerce platform for premium furniture with product catalog, discounts, and modern UI design.',
+            'Educational platform for Physical AI, ROS 2, Digital Twin Engineering, and NVIDIA Isaac robotics.',
+            'AI-powered assistant for smart study notes, instant summaries, and enhanced student productivity.',
+            'Free, fast unit conversion tool for length, temperature, weight, speed, area, volume, pressure, energy, and power.',
+            'Handcrafted resin jewelry e-commerce website preserving nature, memories, and timeless minimal designs.',
+            'Educational institution website showcasing courses, global campuses, facilities, and student testimonials.',
+            'Sustainable e-commerce platform featuring comfortable footwear with free express shipping and eco-friendly materials.',
+            'Simple and elegant countdown timer application built with Next.js for precise time tracking.',
+            'Dynamic blog platform with featured posts, category navigation, and modern content layout.',
+            'Interactive password strength analyzer that evaluates password security in real-time.',
+            'Real-time world clock displaying current times across multiple global time zones.',
+            'Streamlit-based unit conversion tool for various measurement categories with instant results.',
+            'Interactive number guessing game with hints, score tracking, and engaging UI.',
+            'Real-time currency converter with live exchange rates and multi-currency support.',
+            'Comprehensive text analysis tool for word count, character count, sentiment, and readability metrics.',
+            'Simulated ATM application for learning banking operations, balance checks, and transaction history.'
+        ];
+
+        // ============================================================
+        // 5. GENERATE PROJECT CARDS
+        // ============================================================
+        const allProjectsGrid = document.getElementById('allProjectsGrid');
+
+        function createProjectCard(index) {
+            const title = projectTitles[index];
+            const tags = projectTags[index];
+            const icon = projectIcons[index];
+            const link = projectLinks[index];
+            const desc = projectDescriptions[index];
+
+            const colors = [
+                'linear-gradient(135deg,#6c5ce7,#a855f7)',
+                'linear-gradient(135deg,#00d4ff,#6c5ce7)',
+                'linear-gradient(135deg,#a855f7,#00d4ff)',
+                'linear-gradient(135deg,#f093fb,#f5576c)',
+                'linear-gradient(135deg,#4facfe,#00f2fe)'
+            ];
+            const bg = colors[index % colors.length];
+
+            const card = document.createElement('article');
+            card.className = 'project-card reveal-scale';
+            card.style.transitionDelay = (index * 0.04) + 's';
+            card.setAttribute('aria-label', title + ' project');
+
+            card.innerHTML = `
+                <div class="project-thumb" style="background:${bg};">
+                    <i class="fas ${icon}" aria-hidden="true"></i>
+                    <div class="overlay">
+                        <a href="${link}" target="_blank" rel="noopener noreferrer"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                    </div>
+                </div>
+                <div class="project-body">
+                    <div class="tags">
+                        ${tags.map(t => `<span>${t}</span>`).join('')}
+                    </div>
+                    <h3>${title}</h3>
+                    <p>${desc}</p>
+                </div>
+            `;
+            return card;
+        }
+
+        for (let i = 0; i < projectTitles.length; i++) {
+            allProjectsGrid.appendChild(createProjectCard(i));
+        }
+
+        // Observe new cards
+        setTimeout(() => {
+            document.querySelectorAll('#allProjectsGrid .reveal-scale').forEach(el => {
+                revealObserver.observe(el);
+            });
+        }, 100);
+
+        console.log('📁 All 18 projects loaded successfully!');
+    </script>
+
+</body>
+</html>
